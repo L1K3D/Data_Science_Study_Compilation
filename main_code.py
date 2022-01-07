@@ -60,3 +60,14 @@ print(f2)
 
 #===SISTEMA DE SALVAMENTO DA PASTA GERADA===#
 df_final.to_excel(r'Insira o caminho onde o novo arquivo será salvo \Nome do arquivo.xlsx')
+
+
+
+
+
+
+
+#===NOTAS===#
+#1. NÃO delete os 'r' antes dos endereçamentos das pastas de procura e da pasta de salvamento, ou o arquivo reconhecera os endereços como strings e não como indexes;
+#2. NÃO use caracteres especiais, acentos, ou espaçoos na hora de nomear os indexes, as pastas ou os arquivos de excel;
+#3. NÃO mude o tipo de arquivo que seráa criado, ou o arquivo que você obterá não será um arquivo Excel (.xlxs).
