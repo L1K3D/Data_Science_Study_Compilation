@@ -9,7 +9,7 @@ Faz a leitura de todos os arquivos excel em duas pastas diferentes e os consolid
 
 Sinta-se livre para usar os códigos e altera-los em sua máquina como quiser.
 
-#Bibliotecas Utilizadas#
+# Bibliotecas Utilizadas
 1. Pandas (VAR1 e VAR2);
 2. Glob (VAR2);
 3. Openpyxl (VAR1 e VAR2);
