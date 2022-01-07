@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from openpyxl import Workbook
 import os
 
-#===DECLARAÇÃO DAS VARIAVEIS QUE SÃO LIKADOS OS CAMINHOS DAS PASTAS===#
+#===DECLARAÇÃO DAS VARIAVEIS QUE SÃO LINKADOS OS CAMINHOS DAS PASTAS===#
 caminho1 = r'Insira o caminho da primeira pasta'
 caminho2 = r'Insira o caminho da segunda pasta'
 
@@ -42,21 +42,21 @@ print(files3)
 #===IDENTIFICAÇÃO NA PASTA 1===#
 for f1 in files1:
     df_1 = pd.read_excel(caminho1 + "/" + f1)
-
+print(df_1)
+print(df_1.shape)
 
 #===IDENTIFICAÇÃO NA PASTA 2===#
 for f2 in files2:
     df_2 = pd.read_excel(caminho2 + "/" + f2)
-
+print(df_2)
+print(df_2.shape)
+    
 #===CRIAÇÃO DO ARQUIVO EXCEL CONSOLIDADO===#
 df_final = pd.DataFrame()
 type(df_final)
-
 df_final = pd.concat([df_1, df_2])
-
 print(df_final)
-print(f1)
-print(f2)
+print(df_final.shape)
 
 #===SISTEMA DE SALVAMENTO DA PASTA GERADA===#
 df_final.to_excel(r'Insira o caminho onde o novo arquivo será salvo \Nome do arquivo.xlsx')
