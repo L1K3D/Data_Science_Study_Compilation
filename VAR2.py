@@ -52,3 +52,22 @@ print(df_final.shape)
 #===GUARDAR EL ARCHIVO EXCEL CONSOLIDADO===#
 df_final.to_excel(r'Enter folder adress\Enter file name.xlsx')
 
+
+
+
+
+
+#===NOTAS===#
+#1. NÃO delete os 'r' antes dos endereçamentos das pastas de procura e da pasta de salvamento, ou o programa reconhecerá os endereços como strings e não como indexes;
+#2. NÃO use caracteres especiais, acentos, ou espaçoos na hora de nomear os indexes, as pastas ou os arquivos de excel;
+#3. NÃO mude o tipo de arquivo que será criado, ou o arquivo que você obterá não será um arquivo Excel ('.xlsx').
+
+#===NOTES===#
+#1. DO NOT delete the 'r' before the search folder and save folder addresses, or the program will recognize the addresses as strings and not as adresses;
+#2. DO NOT use special characters, accents, or spaces when naming adresses, folders or excel files;
+#3. DO NOT change the type of file that will be created, or the file you will get will not be an Excel file ('.xlsx').
+
+#===NOTAS===#
+# 1. NO elimine la 'r' antes de la carpeta de búsqueda y guarde las direcciones de la carpeta, o el archivo reconocerá las direcciones como cadenas y no como índices;
+#2. NO use caracteres especiales, acentos o espacios al nombrar índices, carpetas o archivos de Excel;
+# 3. NO cambie el tipo de archivo que se creará, o el archivo que obtendrá no será un archivo de Excel ('.xlsx').
