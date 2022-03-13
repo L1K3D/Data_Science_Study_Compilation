@@ -1,9 +1,9 @@
 #DATA SCIENCE STUDY COMPILATION
 
-# "VAR1.py"
+# "VAR1.py (V1)"
 Faz a leitura dos arquivos excel mais recentes de duas pastas dieferentes e os consolida em um arquivo excel só.
 
-# "VAR2.py"
+# "VAR2.py (V2)"
 Faz a leitura de todos os arquivos excel em duas pastas diferentes e os consolida em um arquivo excel só
 
 # "Web Scraping - Dinamic Table.py (WSDT)"
